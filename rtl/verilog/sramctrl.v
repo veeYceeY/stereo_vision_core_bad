@@ -119,9 +119,9 @@ module sramctrl
 		end else begin
 			ub_n_out<=1'b0;
 			lb_n_out<=1'b0;
-			w_data[15:8]<=8'b0;
+			w_data[15:8]<=8'b0;									r_data_out<=r_data[15:8];
 			w_data[7:0]<=w_data_in;
-			r_data_out<=r_data[15:8];
+
 		end
 		end
 	end
